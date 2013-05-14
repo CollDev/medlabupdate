@@ -9,8 +9,8 @@ $app->get('/update/dia/{dia}/hora/{hora}', function($dia, $hora) use ($app) {
         $return = array('Updated');
     } else {
         $return = array(
-            'http://medlabupdate.colldev.com/datfile/518dd527c54f4',
-            "2013-05-11 00:20:39"
+            'http://medlabupdate.colldev.com/datfile/5191bc7db8de3.dat',
+            '2013-05-13 23:24:29'
         );
     }
 
