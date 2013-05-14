@@ -5,7 +5,7 @@ use Symfony\Component\HttpFoundation\Request;
 //Routing
 $app->get('/update/dia/{dia}/hora/{hora}', function($dia, $hora) use ($app) {
     
-    if ($dia . ' ' . $hora >= '2013-05-11 00:20:39') {
+    if ($dia . ' ' . $hora >= '2013-05-13 23:24:29') {
         $return = array('Updated');
     } else {
         $return = array(
